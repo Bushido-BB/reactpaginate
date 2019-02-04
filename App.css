@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.paginate{
+  margin:auto;
+  width:80%;
+  height:fit-content;
+  background: rgba(50, 50, 50, 0.9);
+}
+
+#page-numbers{
+  width:100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#todos-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#todos-list > div{
+  display:flex;
+  width:50%;
+  justify-content: center;
+  align-items: center;
+  height:50px;
+  background: #5451eb;
+  margin:1px;
+}
+.pagenumber,.sidepagenumber{
+  float:left;
+  width:20px;
+  height: 20px;
+  background: #703cff;
+  margin:1px;
+  padding:10px;
+}
+.curpagenumber,.sidepagenumber{
+  width:60px;
+  background: #5f26fc;
+}
